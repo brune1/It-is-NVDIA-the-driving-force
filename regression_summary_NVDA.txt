@@ -1,0 +1,24 @@
+Target (Y): NVDA
+Predictors (X): AAPL, MSFT, AMZN, GOOG
+Split date: 2024-01-01
+R2 train: 0.5453 | MAE train: 0.015417
+R2 test : 0.3340 | MAE test : 0.019933
+
+Coefficients (standardized):
+  MSFT: 0.0107
+  AAPL: 0.0065
+  AMZN: 0.0055
+  GOOG: 0.0042
+
+Correlations among predictors (train):
+          AAPL      MSFT      AMZN      GOOG
+AAPL  1.000000  0.751744  0.625188  0.676358
+MSFT  0.751744  1.000000  0.697928  0.765223
+AMZN  0.625188  0.697928  1.000000  0.677447
+GOOG  0.676358  0.765223  0.677447  1.000000
+
+VIF:
+MSFT    3.457666
+GOOG    2.768615
+AAPL    2.499564
+AMZN    2.209776

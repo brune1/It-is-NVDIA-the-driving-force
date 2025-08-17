@@ -1,0 +1,20 @@
+ython>=3.10
+
+# core
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy>=1.11
+
+# data sourcing
+yfinance>=0.2.40
+requests>=2.31
+
+# notebook
+jupyter>=1.0
+ipykernel>=6.29
+
+# optional (grafici interattivi / diagnostica avanzata)
+plotly>=5.24
+statsmodels>=0.14

@@ -1,0 +1,14 @@
+# Dati e cache
+data/raw/
+data/**/*.parquet
+*.zip
+*.gz
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Ambienti locali
+.venv/
+.env
+.DS_Store
